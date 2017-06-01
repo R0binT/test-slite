@@ -23,4 +23,4 @@ ENV PORT 8080
 EXPOSE  8080
 
 # start command as per package.json
-CMD npm run dev
+CMD ["npm", "run", "dev"]
